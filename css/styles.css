@@ -1,0 +1,204 @@
+/* All Code CSS */
+body {
+    background-color: #242424;
+    font-family: 'Prompt', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+i {
+    color: #008f11;
+}
+
+/* NavigationBar CSS */
+
+#NavigationBar {
+    background-color: #353a40;
+}
+
+.navbar {
+    padding: 2%;
+    font-weight: 500;
+    color: white;
+}
+
+/* Heading CSS */
+
+#Heading {
+    margin: 7% 15%;
+}
+
+#Heading h2 {
+    color: #008f11;
+}
+
+#Heading h1 {
+    font-weight: bold;
+}
+
+.photoProfile {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* About CSS */
+#About {
+    margin: 7% 15%;
+    color: white;
+}
+
+
+/* Skill CSS */
+
+#Skill {
+    margin: 7% 15%;
+}
+
+#Skill .badge {
+    font-size: large;
+    margin: 2% 2% 2% 0%;
+}
+
+/* Project CSS */
+
+#Project {
+    margin: 7% 15%;
+    text-align: center;
+}
+
+#Project .card-text {
+    text-align: left;
+}
+
+#Project .card-header {
+    color: #008f11;
+}
+
+#Project h1 {
+    margin-bottom: 5%;
+}
+
+/* Contact CSS */
+
+#Contact {
+    margin: 7% 15%;
+    text-align: center;
+}
+
+#Contact .Sosmed {
+    width: 10%;
+    height: auto;
+    margin: 5%;
+}
+
+/* Content */
+
+#Content {
+    margin: 2% 15% 7% 15%;
+    text-align: center;
+}
+
+#Content .imageContent {
+    width: 80%;
+    margin: 5%;
+}
+
+#Content .row {
+    margin-top: 5%;
+}
+
+#Content #carouselExampleIndicators {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+#Content #carouselExampleIndicators2 {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+#Content #carouselExampleIndicators3 {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+#Content #carouselExampleIndicators4 {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+#Content #carouselExampleIndicators5 {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+#Content h2 {
+    color: #008f11;
+}
+
+/* iframe */
+
+.container {
+    margin-top: 5%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Mobile CSS */
+@media (max-width:768px) {
+    .icon h1 {
+        font-size: 0%;
+
+    }
+
+    .iframe {
+        width: 480px;
+        height: 360px;
+    }
+
+    #Content #carouselExampleIndicators {
+        width: 100%;
+    }
+
+    #Content #carouselExampleIndicators2 {
+        width: 100%;
+    }
+
+    #Content #carouselExampleIndicators3 {
+        width: 100%;
+    }
+
+    #Content #carouselExampleIndicators4 {
+        width: 100%;
+    }
+
+    #Content #carouselExampleIndicators5 {
+        width: 100%;
+    }
+
+
+}
